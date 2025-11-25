@@ -1,0 +1,27 @@
+{
+  "name": "my_mall",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "ant-design-vue": "^4.2.3",
+    "axios": "^1.10.0",
+    "element-china-area-data": "^6.1.0",
+    "element-plus": "^2.10.3",
+    "vue": "^3.5.17",
+    "vue-draggable-plus": "^0.6.0",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "sass": "^1.92.1",
+    "vite": "^7.0.6",
+    "vite-plugin-vue-devtools": "^7.7.7"
+  }
+}
