@@ -408,11 +408,11 @@ const magnifierVisible = ref(false);
 const magnifierSrc = ref('');
 const lensStyle = ref({});
 const resultStyle = ref({});
-const magnifierZoom = ref(2); // 放大倍数
-const LENS_W = 360;
-const LENS_H = 360;
-const RESULT_W = 560;
-const RESULT_H = 560;
+const magnifierZoom = ref(3); // 放大倍数
+const LENS_W = 120;
+const LENS_H = 120;
+const RESULT_W = 480;
+const RESULT_H = 480;
 // 桌面环境标识：统一判断，无触控且宽度>992
 const isDesktop = ref(true);
 const updateDesktopFlag = () => {
