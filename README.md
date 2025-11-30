@@ -29,7 +29,7 @@
 ### 初始化数据库
 - 创建数据库 `yddmall`
 - 导入SQL：
-  - `order_tables.sql`、`discount_tables.sql`、`cart_table.sql`、`favorite_merchant_table.sql`、`browse_history_table.sql` 等
+  - `yddmall.sql`
 - 配置数据库连接：编辑后端 `yddmall/src/main/resources/application.properties`
   - `spring.datasource.url=jdbc:mysql://localhost:3306/yddmall?...`
   - `spring.datasource.username=<你的用户名>`
